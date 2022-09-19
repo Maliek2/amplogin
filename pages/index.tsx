@@ -13,11 +13,11 @@ export default function IndexPage() {
   return (
     <Layout>
       <Head>
-        <title>The Cat</title>
+        <title>The Greatest Things Of Bloga</title>
       </Head>
-      <h1>The Cat (AMP-first Page)</h1>
-      <Byline author="Dan Zajdband" />
-      <p className="caption">Meowwwwwwww</p>
+      <h1>The Greatest Love</h1>
+      <Byline author="Maliek News" />
+      <p className="caption">Bloggers</p>
       <amp-img
         alt="Mountains"
         width="550"
@@ -35,7 +35,7 @@ export default function IndexPage() {
         ></amp-img>
       </amp-img>
       <p>
-        Cat ipsum dolor <a href={isAmp ? '/dog?amp=1' : '/dog'}>sit amet</a>,
+        Cat ipsum dolor <a href={isAmp ? '/?amp=1' : '/blog'}>Bloggers</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
