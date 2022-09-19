@@ -15,7 +15,7 @@ export default function IndexPage() {
       <Head>
         <title>The Greatest Things Of Bloga</title>
       </Head>
-      <h1>The Greatest Love</h1>
+      <h1>The Great Content</h1>
       <Byline author="Maliek News" />
       <p className="caption">Bloggers</p>
       <amp-img
@@ -35,7 +35,7 @@ export default function IndexPage() {
         ></amp-img>
       </amp-img>
       <p>
-        Cat ipsum dolor <a href={isAmp ? '/?amp=1' : '/blog'}>Bloggers</a>,
+        Cat ipsum dolor <a href={isAmp ? '/blog?amp=1' : '/blog'}>Bloggers</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
