@@ -16,8 +16,8 @@ export default function IndexPage() {
       <title>The Greatest Things Of Bloga</title>
       </Head>
       <h1>The Great Content</h1>
-      <Byline author="Maliek News" />
-      <p className="caption">Bloggers</p>
+      <Byline author="Maliek Android" />
+      <p className="caption">Subscribers will have to Subscribe</p>
       <amp-img
         alt="Mountains"
         width="550"
@@ -31,11 +31,11 @@ export default function IndexPage() {
           width="550"
           height="368"
           layout="responsive"
-          src="https://amp.dev/static/inline-examples/images/mountains.jpg"
+          src="  "
         ></amp-img>
       </amp-img>
       <p>
-        Cat ipsum dolor <a href={isAmp ? '/chat?amp=1' : '/chat'}>Bloggers</a>,
+        Cat ipsum dolor <a href={isAmp ? '/chat?amp=1' : '/chat'}>AndroidKit</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
