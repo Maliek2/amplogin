@@ -15,16 +15,16 @@ export default function DogPage() {
         <title>The VueFront By Maliek</title>
       </Head>
       <h1>The VueFront Press</h1>
-      <Byline author="adball.tech" />
+      <Byline author="Chat.Adball.Tech" />
       <p>
-        <a href={isAmp ? '/chat' : '/chat?amp=1'}>
+        <a href={isAmp ? '/chat' : '/?amp=1'}>
           {isAmp ? 'View Non-AMP' : 'View AMP'} Version
         </a>
       </p>
-      <p className="caption">Youtube Times</p>
+      <p className="caption">Maliek Galant</p>
       <p>
         Wafer donut candy soufflé{' '}
-        <a href={isAmp ? '/?amp=1' : '/'}>Home</a> icing. Marzipan gummi
+        <a href={isAmp ? '/home?amp=1' : '/normal'}>Home</a> icing. Marzipan gummi
         bears pie danish lollipop pudding powder gummi bears sweet. Pie sweet
         roll sweet roll topping chocolate bar dragée pudding chocolate cake.
         Croissant sweet chocolate bar cheesecake candy canes. Tootsie roll icing
