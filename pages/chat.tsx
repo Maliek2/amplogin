@@ -21,7 +21,7 @@ export default function DogPage() {
           {isAmp ? 'View Non-AMP' : 'View AMP'} Version
         </a>
       </p>
-      <p className="caption">Watch On Youtube</p>
+      <p className="caption">Youtube Times</p>
       <p>
         Wafer donut candy soufflé{' '}
         <a href={isAmp ? '/?amp=1' : '/'}>Home</a> icing. Marzipan gummi
