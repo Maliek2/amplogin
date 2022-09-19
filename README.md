@@ -1,4 +1,4 @@
-# Google AMP
+# Google AMP X Maliek Tech
 
 This example shows how to create AMP pages using Next.js and the AMP feature. It shows a normal page (non-AMP), an AMP only page, and a hybrid AMP page.
 
@@ -24,4 +24,4 @@ yarn create next-app --example amp amp-app
 pnpm create next-app --example amp amp-app
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Deploy it to the cloud with [Vercel](https://chat.adball.tech/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://chat.adball.tech/docs/deployment)).
