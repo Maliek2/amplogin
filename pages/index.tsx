@@ -35,7 +35,7 @@ export default function IndexPage() {
         ></amp-img>
       </amp-img>
       <p>
-        Cat ipsum dolor <a href={isAmp ? '/blog?amp=1' : '/blog'}>Bloggers</a>,
+        Cat ipsum dolor <a href={isAmp ? '/?amp=1' : '/cat'}>Bloggers</a>,
         eat grass, throw it back up but refuse to leave cardboard box or groom
         yourself 4 hours - checked, have your beauty sleep 18 hours - checked,
         be fabulous for the rest of the day - checked!. Hide from vacuum
@@ -123,7 +123,7 @@ export default function IndexPage() {
         do that.
       </p>
       <p>
-        Jump launch to pounce upon little yarn mouse, bare fangs at toy run hide
+        Jump launch to pounce upon<a href={isAmp ? '/?amp=1' : '/home'}>Home</a> little yarn mouse, bare fangs at toy run hide
         in litter box until treats are fed touch water with paw then recoil in
         horror then cats take over the world i could pee on this if i had the
         energy. Lie on your belly and purr when you are asleep toy mouse squeak
