@@ -14,17 +14,17 @@ export default function DogPage() {
       <Head>
         <title>The VueFront By Maliek</title>
       </Head>
-      <h1>The VueFront Press</h1>
-      <Byline author="Chat.Adball.Tech" />
+      <h1>News Blog Press</h1>
+      <Byline author="Techniques" />
       <p>
-        <a href={isAmp ? '/chat' : '/?amp=1'}>
+        <a href={isAmp ? '/amp/' : '/?amp=1'}>
           {isAmp ? 'View Non-AMP' : 'View AMP'} Version
         </a>
       </p>
       <p className="caption">Maliek Galant</p>
       <p>
-        Wafer donut candy soufflé{' '}
-        <a href={isAmp ? '/home?amp=1' : '/normal'}>Home</a> icing. Marzipan gummi
+        What type of page is this ?{' '}
+        <a href={isAmp ? '/login?amp=1' : '/normal'}>Checkout Login</a>. Marzipan gummi
         bears pie danish lollipop pudding powder gummi bears sweet. Pie sweet
         roll sweet roll topping chocolate bar dragée pudding chocolate cake.
         Croissant sweet chocolate bar cheesecake candy canes. Tootsie roll icing
