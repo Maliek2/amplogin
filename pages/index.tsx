@@ -12,7 +12,7 @@ export default function DogPage() {
   return (
     <div>
       <Head>
-        <title>The VueFront By Maliek</title>
+        <title>VueFront By Maliek</title>
       </Head>
       <h1>News Blog Press</h1>
       <Byline author="Techniques" />
@@ -77,18 +77,7 @@ export default function DogPage() {
         dragée pudding bear claw. Muffin cake cupcake candy canes. Soufflé candy
         canes biscuit. Macaroon gummies danish.
       </p>
-      <p>
-        Cupcake cupcake tart. Cotton candy danish candy canes oat cake ice cream
-        candy canes powder wafer. Chocolate sesame snaps oat cake dragée
-        cheesecake. Sesame snaps marshmallow topping liquorice cookie
-        marshmallow. Liquorice pudding chocolate bar. Cake powder brownie
-        fruitcake. Carrot cake dessert marzipan sugar plum cupcake cheesecake
-        pastry. Apple pie macaroon ice cream fruitcake apple pie cookie. Tootsie
-        roll ice cream oat cake cheesecake donut cheesecake bear claw. Sesame
-        snaps marzipan jelly beans chocolate tootsie roll. Chocolate bar donut
-        dragée ice cream biscuit. Pie candy canes muffin candy canes ice cream
-        tiramisu.
-      </p>
+      
     </div>
   )
 }
